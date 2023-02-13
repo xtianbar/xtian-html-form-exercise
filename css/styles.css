@@ -14,4 +14,11 @@
 body {
   background: var(--body-background);
   color: var(--font-color-bk);
+  /* width: 100%; */
+}
+
+label {
+  display: inline-block;
+  background-color: var(--font-color-wt);
+  margin: 0.5rem 0;
 }
