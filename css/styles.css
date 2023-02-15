@@ -20,7 +20,7 @@ body {
 
 label {
   display: inline-block;
-  background-color: var(--green-color);
+  /* background-color: var(--green-color); */
   margin: 0.5rem 0;
 }
 
