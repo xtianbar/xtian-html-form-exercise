@@ -6,7 +6,7 @@
 }
 
 :root {
-  --body-background: rgba(228, 202, 168);
+  --body-background: rgb(242, 168, 244);
   --font-color-bk: #010101;
   --font-color-wt: #f1f1f1;
   --green-color: rgb(127, 247, 127);
@@ -16,6 +16,31 @@ body {
   background: var(--body-background);
   color: var(--font-color-bk);
   /* width: 100%; */
+  font-size: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+form {
+  margin: 0 auto;
+  max-width: 500px;
+  min-width: 300px;
+  width: 60vw;
+  padding-bottom: 10%;
+}
+
+fieldset {
+  padding: 2rem 0.5rem;
+  border: none;
+  border-bottom: .125rem solid var(--font-color-bk);
+}
+fieldset:last-of-type {
+  border: none;
 }
 
 label {
@@ -24,3 +49,37 @@ label {
   margin: 0.5rem 0;
 }
 
+input, textarea, select {
+  width: 30rem;
+  /* margin: 10px 0 0; */
+  background-color: rgb(255, 255, 255);
+  border: none;
+  height: 2rem;
+}
+.inline {
+  width: unset;
+  margin: 0 0.5rem 0;
+  vertical-align: middle;
+
+}
+
+.fieldset-1 input, .fieldset-2 input, .age, .fieldset-3 textarea, .fieldset-3 select {
+  padding: 0 0 0 0.2rem;
+}
+.file-upload {
+  padding: 0.3rem 0 0 0.2rem;
+  align-items: center;
+}
+.submit {
+  width: 8rem;
+  height: 2.5rem;
+  margin: 0 0 0 0.5rem;
+  border: 1px solid var(--font-color-bk);
+  border-radius: 0.2rem;
+}
+.submit:hover {
+  background-color: #ffffff98;
+}
+input::placeholder, textarea::placeholder {
+  color: rgb(40, 40, 40);
+}
