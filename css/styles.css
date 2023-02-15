@@ -9,6 +9,7 @@
   --body-background: rgba(228, 202, 168);
   --font-color-bk: #010101;
   --font-color-wt: #f1f1f1;
+  --green-color: rgb(127, 247, 127);
 }
 
 body {
@@ -19,6 +20,7 @@ body {
 
 label {
   display: inline-block;
-  background-color: var(--font-color-wt);
+  background-color: var(--green-color);
   margin: 0.5rem 0;
 }
+
